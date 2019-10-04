@@ -4,12 +4,6 @@
  * Read more at https://makecode.microbit.org/blocks/custom
  */
 
-enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
-}
 
 /**
  * Custom blocks
@@ -18,12 +12,13 @@ enum MyEnum {
 namespace MicrobitLive {
     /**
      * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param v describe parameter here, eg: "twitter"
-     * @param w describe parameter here, eg: "twitter"
-     * @param s describe parameter here, eg: "@4pip"
+     * @param e describe parameter here, eg: "Microbit Live"
+     * @param s describe parameter here, eg: "Whats next ...."
+     * @param t describe parameter here, eg: "twitter"
+     * @param h describe parameter here, eg: "@peterheldens"
+     * @param m describe parameter here, eg: "@4pip"
      * @param t describe parameter here, eg: "@peterheldens"
-     * @param l describe parameter here, eg: "whats"
+     * 
      */
 
     //% block
@@ -37,12 +32,21 @@ namespace MicrobitLive {
     }
 
     //% block
+    export function Event(e: string): void {
+        // Add code here
+    }
+
+    //% block
+    export function Session(s: string): void {
+        // Add code here
+    }
+    //% block
     export function Microbit101(): void {
         // Add code here
     }
 
     //% block
-    export function SessionTitle(l: string): void {
+    export function Title(t: string): void {
         // Add code here
     }
     
