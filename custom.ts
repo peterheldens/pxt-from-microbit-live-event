@@ -35,7 +35,7 @@ namespace MicrobitLive {
     }
 
     //% block
-    export function Peter(t: string, h: string): void {
+    export function Peter(h: string): void {
         // Add code here
     }
 
