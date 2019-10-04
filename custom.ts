@@ -17,19 +17,7 @@ namespace MicrobitLive {
      * @param t describe parameter here, eg: "twitter"
      * @param h describe parameter here, eg: "@peterheldens"
      * @param m describe parameter here, eg: "@4pip"
-     * @param t describe parameter here, eg: "@peterheldens"
-     * 
      */
-
-    //% block
-    export function Pauline(v: string, s: string): void {
-        // Add code here
-    }
-
-    //% block
-    export function Peter(w: string, t: string): void {
-        // Add code here
-    }
 
     //% block
     export function Event(e: string): void {
@@ -40,13 +28,19 @@ namespace MicrobitLive {
     export function Session(s: string): void {
         // Add code here
     }
+
     //% block
-    export function Microbit101(): void {
+    export function Pauline(t: string, m: string): void {
         // Add code here
     }
 
     //% block
-    export function Title(t: string): void {
+    export function Peter(t: string, h: string): void {
+        // Add code here
+    }
+
+      //% block
+    export function Microbit101(): void {
         // Add code here
     }
     
