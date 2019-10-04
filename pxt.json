@@ -1,5 +1,5 @@
 {
-    "name": "Untitled",
+    "name": "Microbit Live Manchester",
     "dependencies": {
         "core": "*",
         "radio": "*"
@@ -10,7 +10,7 @@
         "main.ts",
         "README.md"
     ],
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "testFiles": [
         "test.ts"
     ]
