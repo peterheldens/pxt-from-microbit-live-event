@@ -12,7 +12,7 @@
 namespace MicrobitLive {
     /**
      * TODO: describe your function here
-     * @param e describe parameter here, eg: "Microbit Live"
+     * @param e describe parameter here, eg: "MicrobitLive"
      * @param s describe parameter here, eg: "Whats"
      * @param t describe parameter here, eg: "twitter"
      * @param h describe parameter here, eg: "@peterheldens"
@@ -25,7 +25,7 @@ namespace MicrobitLive {
     }
 
     //% block
-    export function Session(s: string): void {
+    export function Title(s: string): void {
         // Add code here
     }
 
@@ -34,14 +34,8 @@ namespace MicrobitLive {
         // Add code here
     }
 
-    //% block
-    export function Peter(h: string): void {
-        // Add code here
-    }
-
       //% block
     export function Microbit101(): void {
         // Add code here
     }
-    
 }
