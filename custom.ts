@@ -19,7 +19,7 @@ namespace MicrobitLive {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
+     * @param s describe parameter here, eg: "4pip"
      * @param e describe parameter here
      */
     //% block
@@ -37,7 +37,6 @@ namespace MicrobitLive {
      * @param value describe value here, eg: 5
      */
     //% block
-    export function Peter(value: number): number {
-        return value <= 1 ? value : fib(value - 1) + fib(value - 2);
-    }
+    export function Peter(s: string, s: string): void {
+        }
 }
