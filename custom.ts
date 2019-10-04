@@ -23,7 +23,7 @@ namespace MicrobitLive {
      * @param s describe parameter here, eg: "@4pip"
      * @param t describe parameter here, eg: "@peterheldens"
      * @param l describe parameter here, eg: "whats"
-     **/
+     */
 
     //% block
     export function Pauline(w: string, s: string): void {
