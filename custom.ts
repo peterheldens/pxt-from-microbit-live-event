@@ -19,11 +19,17 @@ namespace MicrobitLive {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
+     * @param t describe parameter here, eg: "twitter"
      * @param s describe parameter here, eg: "@4pip"
      * @param t describe parameter here, eg: "@peterheldens"
      */
     //% block
-    export function Pauline(n: number, s: string, e: MyEnum): void {
+    export function Pauline(w: string, s: string, e: MyEnum): void {
+        // Add code here
+    }
+
+    //% block
+    export function Peter(w: string, t: string, e: MyEnum): void {
         // Add code here
     }
 
@@ -32,12 +38,5 @@ namespace MicrobitLive {
         // Add code here
     }
 
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block
-    export function Peter(value: number, s: string): number {
-        return value <= 1 ? value : fib(value - 1) + fib(value - 2);
-    }
+    
 }
