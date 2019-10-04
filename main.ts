@@ -1,6 +1,9 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Heart)
+    MicrobitLive.Pauline("@4pip")
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.Asleep)
+    MicrobitLive.Peter("@peterheldens")
 })
+MicrobitLive.Seminar("Microbit Live Event Manchester")
+MicrobitLive.Seminar("MicrobitLive")
+MicrobitLive.Microbit101()
