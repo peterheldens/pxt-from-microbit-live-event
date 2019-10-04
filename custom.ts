@@ -19,6 +19,7 @@ namespace MicrobitLive {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
+     * @param v describe parameter here, eg: "twitter"
      * @param w describe parameter here, eg: "twitter"
      * @param s describe parameter here, eg: "@4pip"
      * @param t describe parameter here, eg: "@peterheldens"
@@ -26,7 +27,7 @@ namespace MicrobitLive {
      */
 
     //% block
-    export function Pauline(w: string, s: string): void {
+    export function Pauline(v: string, s: string): void {
         // Add code here
     }
 
