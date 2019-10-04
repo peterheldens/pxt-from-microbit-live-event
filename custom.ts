@@ -23,7 +23,7 @@ namespace custom {
      * @param e describe parameter here
      */
     //% block
-    export function foo(n: number, s: string, e: MyEnum): void {
+    export function Pauline(n: number, s: string, e: MyEnum): void {
         // Add code here
     }
 
@@ -32,7 +32,7 @@ namespace custom {
      * @param value describe value here, eg: 5
      */
     //% block
-    export function fib(value: number): number {
+    export function Peter(value: number): number {
         return value <= 1 ? value : fib(value - 1) + fib(value - 2);
     }
 }
