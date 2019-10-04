@@ -19,8 +19,8 @@ namespace MicrobitLive {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "4pip"
-     * @param e describe parameter here
+     * @param s describe parameter here, eg: "@4pip"
+     * @param t describe parameter here, eg: "@peterheldens"
      */
     //% block
     export function Pauline(n: number, s: string, e: MyEnum): void {
