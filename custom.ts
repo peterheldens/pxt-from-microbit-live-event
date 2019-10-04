@@ -15,7 +15,7 @@ enum MyEnum {
  * Custom blocks
  */
 //% weight=100 color=#0fbc11 icon=""
-namespace custom {
+namespace MicrobitLive {
     /**
      * TODO: describe your function here
      * @param n describe parameter here, eg: 5
@@ -24,6 +24,11 @@ namespace custom {
      */
     //% block
     export function Pauline(n: number, s: string, e: MyEnum): void {
+        // Add code here
+    }
+
+    //% block
+    export function Microbit101(): void {
         // Add code here
     }
 
